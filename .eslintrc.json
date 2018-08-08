@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "plugin:jest/recommended"],
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "rules": {
+    "no-underscore-dangle": 0,
+    "jsx-a11y/href-no-hash": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "react/jsx-filename-extension": 0,
+    "flowtype/no-types-missing-file-annotation": 0,
+    "no-tabs": 0,
+    "indent": 0,
+    "camelcase": 0,
+    "no-console": ["error", { "allow": ["info", "warn", "error"] }]
+  }
+}

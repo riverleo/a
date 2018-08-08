@@ -1,0 +1,10 @@
+/.out/
+/.next/
+/messages/*.json
+**/coverage/**
+**/node_modules/**
+
+*.swp
+.DS_Store
+package-lock.json
+jest-test-results.json

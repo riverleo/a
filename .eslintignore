@@ -1,0 +1,7 @@
+/static/
+/.next/
+/messages/
+/node_modules/
+
+*.pem
+yarn.lock
